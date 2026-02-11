@@ -14,7 +14,6 @@ terminal-height: "100%"
     item_font = "Norwester Regular 22"
     selected_item_font = "Norwester Regular 22"
     selected_item_color = "#e8e6e6"
-    selected_item_pixmap_style = "select_*.png"
 }
 
 + label {
