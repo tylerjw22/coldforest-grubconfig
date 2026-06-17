@@ -24,9 +24,9 @@ clone this repo to /boot/grub/themes with the one from this repo:
 
 
 ### 2. Edit the default GRUB file
-"sudo nano /etc/default/grub"
-locate the "GRUB_BACKGROUND" and "GRUB_THEME" lines and replace them with:
-GRUB_BACKGROUND="/boot/grub/themes/coldforest-grubconfig/coldforest.png"
+"sudo nano /etc/default/grub"  
+locate the "GRUB_BACKGROUND" and "GRUB_THEME" lines and replace them with:  
+GRUB_BACKGROUND="/boot/grub/themes/coldforest-grubconfig/coldforest.png"  
 GRUB_THEME="boot/grub/themes/coldforest-grubconfig/theme.txt"
 
 
