@@ -17,28 +17,24 @@ This install is for Arch based systems.
 
 ## Installation
 
-### 1. Backup your current GRUB theme (recommended)
-"sudo cp /boot/grub/themes/your_theme /boot/grub/themes/your_theme.backup"
-
-
-### 2. Clone the repo
+### 1. Clone the repo
 clone this repo to /boot/grub/themes with the one from this repo:   
 "cd /boot/grub/themes"  
 "git clone https://github.com/tylerjw22/coldforest-grubconfig.git"
 
 
-### 3. Edit the default GRUB file
+### 2. Edit the default GRUB file
 "sudo nano /etc/default/grub"
 locate the "GRUB_BACKGROUND" and "GRUB_THEME" lines and replace them with:
-GRUB_BACKGROUND="/boot/grub/themes/coldforest/coldforest.png"
-GRUB_THEME="boot/grub/themes/coldforest"
+GRUB_BACKGROUND="/boot/grub/themes/coldforest-grubconfig/coldforest.png"
+GRUB_THEME="boot/grub/themes/coldforest-grubconfig/theme.txt"
 
 
-### 4. Regenerate GRUB config
+### 3. Regenerate GRUB config
 "sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 
-### 5. Reboot
+### 4. Reboot
 "sudo reboot now"
 
 Your new GRUB configuration should now be active.
